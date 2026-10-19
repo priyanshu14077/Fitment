@@ -15,6 +15,10 @@ def tool(name, **tool_input):
         tool("Bash", command="cat .env"),
         tool("Bash", command="grep ADMIN /repo/.env"),
         tool("Bash", command="cp .env.example .env"),
+        tool("Bash", command="source .env && env"),
+        tool("Bash", command="docker run --env-file=.env x"),
+        tool("Bash", command="python x.py <.env"),
+        tool("Bash", command="cat certs/server.pem | head"),
     ],
 )
 def test_blocks(payload):
@@ -29,6 +33,11 @@ def test_blocks(payload):
         tool("Read", file_path="/repo/.gitignore"),
         tool("Bash", command="cat .env.example"),
         tool("Bash", command="uv sync --project api"),
+        tool(
+            "Bash",
+            command='git commit -m "feat(api): load settings from the repo-root .env"',
+        ),
+        tool("Bash", command="echo 'never commit .env files'"),
     ],
 )
 def test_allows(payload):
