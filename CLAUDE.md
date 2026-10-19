@@ -51,17 +51,18 @@ docker compose up -d && docker compose ps # db + redis, wait for "healthy"
 uv sync --project api                     # install the API and dev tools into api/.venv
 uv run --project api alembic -c api/alembic.ini upgrade head
 uv run --project api alembic -c api/alembic.ini current
-uv run --project api pytest               # API tests (api/tests, from day 2)
+uv run --project api python scripts/seed.py   # rebuild the catalog from data/vpic_snapshot.json (local DB only)
+uv run --project api pytest               # API tests (api/tests)
 uv run --project api pytest .claude/hooks/tests   # hook tests
 docker exec -it fitment-db psql -U fitment   # \dt tables, \d <table>, \q quit
 ```
 
-Planned, not built yet: `scripts/snapshot_vpic.py` and `scripts/seed.py` (day 1), `uvicorn` app (day 2), `pnpm gen` SDK generation (day 4), `loadtest/` k6 (day 5).
+`uv run --project api python scripts/snapshot_vpic.py` refreshes the snapshot (user only, ADR 0003). Planned, not built yet: `uvicorn` app (day 2), `pnpm gen` SDK generation (day 4), `loadtest/` k6 (day 5).
 
 ## Layout
 
 ```
-api/src/fitment/       package: config.py now; routes/, schemas/, repo/, services/ from day 2
+api/src/fitment/       package: config.py, seed.py, repo/; routes/, schemas/, services/ from day 2
 api/migrations/        Alembic, hand-written SQL
 api/tests/             pytest + httpx
 packages/sdk/          generated TypeScript client (day 4)
