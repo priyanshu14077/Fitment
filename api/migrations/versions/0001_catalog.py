@@ -38,17 +38,20 @@ def upgrade() -> None:
     """)
     op.execute("CREATE INDEX model_make_id_idx ON model (make_id)")
 
-    # Field names follow vPIC's DecodeVinValues output. Electric engines have
-    # no displacement or cylinders, so both are nullable.
+    # Our own closed vocabulary, exposed by /v1 (values can be added, never
+    # removed). The seed and VIN decode map vPIC's FuelTypePrimary and Turbo
+    # onto it. Electric engines have no displacement, cylinders or aspiration.
+    # ADR 0020.
     op.execute("""
         CREATE TABLE engine (
             id             integer GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
             code           text    NOT NULL UNIQUE,
             displacement_l numeric(3, 1) CHECK (displacement_l > 0),
             cylinders      smallint CHECK (cylinders > 0),
-            fuel           text    NOT NULL,
-            aspiration     text    NOT NULL
-                CHECK (aspiration IN ('naturally_aspirated', 'turbo', 'supercharged', 'electric'))
+            fuel           text    NOT NULL
+                CHECK (fuel IN ('gasoline', 'diesel', 'hybrid', 'plug_in_hybrid', 'electric')),
+            aspiration     text
+                CHECK (aspiration IN ('naturally_aspirated', 'turbo', 'supercharged'))
         )
     """)
 
@@ -88,6 +91,8 @@ def upgrade() -> None:
     op.execute("CREATE INDEX part_name_trgm_idx ON part USING gin (name gin_trgm_ops)")
 
     # A NULL trim or engine_id means the rule applies to every trim or engine.
+    # Overlapping year ranges are allowed, as in real catalogues; a fitment
+    # check returns every matching rule. ADR 0020.
     op.execute("""
         CREATE TABLE fitment (
             id        bigint   GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
@@ -102,6 +107,7 @@ def upgrade() -> None:
             notes     text,
             FOREIGN KEY (model_id, make_id) REFERENCES model (id, make_id),
             CHECK (year_from <= year_to),
+            CHECK (year_from BETWEEN 1981 AND 2100 AND year_to BETWEEN 1981 AND 2100),
             UNIQUE NULLS NOT DISTINCT
                 (part_id, model_id, year_from, year_to, trim, engine_id, position)
         )
@@ -112,7 +118,7 @@ def upgrade() -> None:
         CREATE INDEX fitment_lookup ON fitment (model_id, year_from, year_to)
             INCLUDE (part_id, trim, engine_id, position)
     """)
-    op.execute("CREATE INDEX fitment_part_id_idx ON fitment (part_id)")
+    # fitment.part_id needs no index of its own: it leads the UNIQUE index.
     op.execute("CREATE INDEX fitment_make_id_idx ON fitment (make_id)")
     op.execute(
         "CREATE INDEX fitment_engine_id_idx ON fitment (engine_id) WHERE engine_id IS NOT NULL"
@@ -130,4 +136,4 @@ def downgrade() -> None:
         "make",
     ):
         op.execute(f"DROP TABLE {table}")
-    op.execute("DROP EXTENSION IF EXISTS pg_trgm")
+    # pg_trgm stays: upgrade used IF NOT EXISTS, so it may predate this migration.
