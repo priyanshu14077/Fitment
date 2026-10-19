@@ -19,6 +19,10 @@ def tool(name, **tool_input):
         tool("Bash", command="docker run --env-file=.env x"),
         tool("Bash", command="python x.py <.env"),
         tool("Bash", command="cat certs/server.pem | head"),
+        tool("Bash", command='bash -c "cat .env"'),
+        tool("Bash", command="sh -c 'grep X .env'"),
+        tool("Bash", command='cat "/path with space/.env"'),
+        tool("Bash", command="echo hi && bash -c 'cat .env'"),
     ],
 )
 def test_blocks(payload):
