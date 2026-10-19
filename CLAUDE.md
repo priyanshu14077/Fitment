@@ -101,3 +101,7 @@ The user is learning the codebase while building it. End every step with the `ex
 - `loadtest`: k6 run and recording the result
 - `explain-step`: the teaching hand-off
 - `contract-reviewer` agent: checks a change against rules 1–6 and reports. It never edits files.
+
+## Plugins
+
+`ponytail` (enabled in `.claude/settings.json`) pushes for the simplest solution: stdlib first, no unrequested abstractions. Follow it when choosing *how* to implement. It never overrides this file: ADRs, tests, `downgrade()` functions, problem+json errors and the stop-and-ask list are required even when they look like extra work. (ADR 0019)
