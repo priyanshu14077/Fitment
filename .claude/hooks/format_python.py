@@ -1,5 +1,8 @@
 """PostToolUse(Edit|Write|MultiEdit): ruff format and ruff check --fix on an
-edited Python file. Reports only what ruff could not fix."""
+edited Python file. Reports only what ruff could not fix.
+
+Unused imports (F401) are reported but never removed: an edit that adds an
+import before the code using it would otherwise lose the import mid-change."""
 
 import subprocess
 
@@ -19,7 +22,7 @@ def main() -> None:
         [*ruff, "format", str(path)], cwd=root, check=False, capture_output=True
     )
     result = subprocess.run(
-        [*ruff, "check", "--fix", "--quiet", str(path)],
+        [*ruff, "check", "--fix", "--unfixable", "F401", "--quiet", str(path)],
         cwd=root,
         check=False,
         capture_output=True,
