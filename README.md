@@ -1,0 +1,53 @@
+# Fitment API
+
+A small developer API for automotive parts fitment. It decodes a VIN, searches parts, and answers "does this part fit this vehicle?", with the platform pieces an API product needs: hashed API keys, per-key rate limits, usage metering, versioned OpenAPI specs and a generated TypeScript SDK.
+
+> Status: design settled, build in progress. Sections marked _planned_ describe work not done yet.
+
+## What it does
+
+| Endpoint | Purpose |
+|---|---|
+| `POST /v1/vehicles/decode` | Validate a VIN (check digit, WMI, model year) and match it to a known vehicle |
+| `GET /v1/parts/search` | Search parts by text, category, or vehicle |
+| `POST /v1/fitment/check` | Return `fits`, `does_not_fit` or `fits_with_conditions` for a part and vehicle |
+| `POST /v1/fitment/check:batch` | Many checks in one call, safe to retry with an `Idempotency-Key` |
+| `GET /v1/usage` | The caller's own usage rollups |
+| `POST/DELETE /v1/admin/keys` | Issue, rotate and revoke API keys (admin token) |
+
+## Data
+
+Makes, models and years are real, snapshotted from the NHTSA vPIC API into a committed JSON file so builds are reproducible and offline. vPIC does not publish trims or engines per model, so trims, engines and all parts are **synthetic**, generated from per-model templates. Engine fields use vPIC's vocabulary (displacement, cylinders, fuel type). A production build would source trims and engines from vPIC's standalone database or a licensed catalogue (ACES/PIES, TecDoc).
+
+Fitment is a range, not a list: a row covers a make, model and year span, with trim and engine optional. A missing trim or engine means "any". When a fitment row needs a detail the caller didn't send, the answer is `fits_with_conditions`.
+
+## Design decisions
+
+- **API keys** are random secrets shown once. Only a SHA-256 hash is stored; a plain-text key id lets the server find the row by index. Hashing, not encryption: a leaked database yields no usable keys.
+- **Rate limits** use a token bucket per key in Redis, updated atomically by a Lua script. Responses carry `X-RateLimit-*` headers; an empty bucket returns `429` with `Retry-After`.
+- **Usage metering** never writes to Postgres in the request path. Requests bump Redis counters per key, endpoint and minute; a background task flushes them into daily rollups. A crash can lose a few seconds of counts, so it undercounts rather than overbills. Enforcement (rate limits) and accounting (metering) are separate systems.
+- **Idempotency**: batch requests with an `Idempotency-Key` store their response in Postgres. A retry with the same body replays it, a different body returns `422`, and a request still in flight returns `409`.
+- **Versioning**: the version is in the path (`/v1`). Additive changes stay on v1. One schema and one engine sit behind thin per-version serialisers. Each version has its own committed OpenAPI spec, and CI flags breaking changes against it.
+- **Errors** follow RFC 9457 `application/problem+json` with a stable `code` and the `request_id`.
+
+## Stack
+
+Python 3.13 (uv), FastAPI, async SQLAlchemy 2 + asyncpg, Alembic, PostgreSQL, Redis, TypeScript, `@hey-api/openapi-ts`, Vite + React, k6, Docker Compose, GitHub Actions.
+
+## Layout _(planned)_
+
+```
+api/            FastAPI service (uv project)
+packages/sdk/   generated TypeScript client
+apps/demo/      Vite + React parts shop with a developer panel
+loadtest/       k6 scripts
+scripts/        vPIC snapshot and seed
+```
+
+## Running _(planned)_
+
+```sh
+docker compose up
+```
+
+## Walkthrough video _(planned)_
