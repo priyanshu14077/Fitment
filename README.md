@@ -17,7 +17,16 @@ A small developer API for automotive parts fitment. It decodes a VIN, searches p
 
 ## Data
 
-Makes, models and years are real, snapshotted from the NHTSA vPIC API into a committed JSON file so builds are reproducible and offline. vPIC does not publish trims or engines per model, so trims, engines and all parts are **synthetic**, generated from per-model templates. Engine fields use vPIC's vocabulary (displacement, cylinders, fuel type). A production build would source trims and engines from vPIC's standalone database or a licensed catalogue (ACES/PIES, TecDoc).
+Makes, models and model years are real, snapshotted from the NHTSA vPIC API into [`data/vpic_snapshot.json`](data/vpic_snapshot.json) so builds are reproducible and offline ([ADR 0021](docs/adr/0021-vpic-snapshot-scope.md)). The snapshot is refreshed only by hand with `scripts/snapshot_vpic.py`.
+
+Scope and limits:
+
+- **Passenger cars only**, model years 2010–2024, 30 makes. SUVs and pickups are out of scope, so GMC, Jeep, Land Rover and Ram have no models.
+- **US market**: vPIC is NHTSA data, so models sold only in other markets are absent.
+- **Trims, engines and parts are synthetic.** vPIC does not publish trims or engines per model. `scripts/seed.py` generates them deterministically from the snapshot ([ADR 0022](docs/adr/0022-seed-catalog.md)); every part SKU starts with `SYN-` and brand names are invented.
+- **Engines use our own closed vocabulary** (`gasoline`, `diesel`, `hybrid`, `plug_in_hybrid`, `electric`), mapped from vPIC values ([ADR 0020](docs/adr/0020-schema-details.md)). Fuel-cell cars count as `electric`.
+
+A production build would source trims and engines from vPIC's standalone database or a licensed catalogue (ACES/PIES, TecDoc).
 
 Fitment is a range, not a list: a row covers a make, model and year span, with trim and engine optional. A missing trim or engine means "any". When a fitment row needs a detail the caller didn't send, the answer is `fits_with_conditions`.
 
@@ -55,10 +64,17 @@ I designed the architecture and data flow; Claude Code implemented it under rule
 
 Git workflow and release process: [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
-## Running _(planned)_
+## Running
+
+The API itself is planned for day 2. The database and catalog run today:
 
 ```sh
-docker compose up
+cp .env.example .env
+docker compose up -d
+uv sync --project api
+uv run --project api alembic -c api/alembic.ini upgrade head
+uv run --project api python scripts/seed.py
+uv run --project api pytest
 ```
 
 ## Walkthrough video _(planned)_
