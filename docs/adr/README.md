@@ -24,3 +24,4 @@ One file per decision: context, decision, consequences. Accepted ADRs are not ed
 | [0018](0018-agent-harness.md) | Claude Code harness: rules, permissions, hooks, skills, reviewer |
 | [0019](0019-ponytail-plugin.md) | Enable the ponytail plugin; CLAUDE.md takes precedence |
 | [0020](0020-schema-details.md) | Schema details from the day-1 contract review |
+| [0021](0021-vpic-snapshot-scope.md) | vPIC snapshot scope and shape |
