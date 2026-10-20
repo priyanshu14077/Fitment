@@ -1,0 +1,5479 @@
+{
+  "source": "vpic-api",
+  "fetched_at": "2026-10-19",
+  "source_version": "vpic-api-2026-10-19",
+  "query": {
+    "makes": [
+      "TOYOTA",
+      "LEXUS",
+      "HONDA",
+      "ACURA",
+      "NISSAN",
+      "INFINITI",
+      "MAZDA",
+      "SUBARU",
+      "MITSUBISHI",
+      "SUZUKI",
+      "HYUNDAI",
+      "KIA",
+      "GENESIS",
+      "FORD",
+      "CHEVROLET",
+      "GMC",
+      "DODGE",
+      "RAM",
+      "JEEP",
+      "CHRYSLER",
+      "TESLA",
+      "VOLKSWAGEN",
+      "AUDI",
+      "BMW",
+      "MINI",
+      "MERCEDES-BENZ",
+      "PORSCHE",
+      "VOLVO",
+      "LAND ROVER",
+      "JAGUAR"
+    ],
+    "years": [
+      2010,
+      2024
+    ],
+    "vehicle_types": [
+      "car"
+    ]
+  },
+  "makes": [
+    {
+      "vpic_make_id": 475,
+      "name": "ACURA"
+    },
+    {
+      "vpic_make_id": 582,
+      "name": "AUDI"
+    },
+    {
+      "vpic_make_id": 452,
+      "name": "BMW"
+    },
+    {
+      "vpic_make_id": 467,
+      "name": "CHEVROLET"
+    },
+    {
+      "vpic_make_id": 477,
+      "name": "CHRYSLER"
+    },
+    {
+      "vpic_make_id": 476,
+      "name": "DODGE"
+    },
+    {
+      "vpic_make_id": 460,
+      "name": "FORD"
+    },
+    {
+      "vpic_make_id": 5083,
+      "name": "GENESIS"
+    },
+    {
+      "vpic_make_id": 472,
+      "name": "GMC"
+    },
+    {
+      "vpic_make_id": 474,
+      "name": "HONDA"
+    },
+    {
+      "vpic_make_id": 498,
+      "name": "HYUNDAI"
+    },
+    {
+      "vpic_make_id": 480,
+      "name": "INFINITI"
+    },
+    {
+      "vpic_make_id": 442,
+      "name": "JAGUAR"
+    },
+    {
+      "vpic_make_id": 483,
+      "name": "JEEP"
+    },
+    {
+      "vpic_make_id": 499,
+      "name": "KIA"
+    },
+    {
+      "vpic_make_id": 444,
+      "name": "LAND ROVER"
+    },
+    {
+      "vpic_make_id": 515,
+      "name": "LEXUS"
+    },
+    {
+      "vpic_make_id": 473,
+      "name": "MAZDA"
+    },
+    {
+      "vpic_make_id": 449,
+      "name": "MERCEDES-BENZ"
+    },
+    {
+      "vpic_make_id": 456,
+      "name": "MINI"
+    },
+    {
+      "vpic_make_id": 481,
+      "name": "MITSUBISHI"
+    },
+    {
+      "vpic_make_id": 478,
+      "name": "NISSAN"
+    },
+    {
+      "vpic_make_id": 584,
+      "name": "PORSCHE"
+    },
+    {
+      "vpic_make_id": 496,
+      "name": "RAM"
+    },
+    {
+      "vpic_make_id": 523,
+      "name": "SUBARU"
+    },
+    {
+      "vpic_make_id": 509,
+      "name": "SUZUKI"
+    },
+    {
+      "vpic_make_id": 441,
+      "name": "TESLA"
+    },
+    {
+      "vpic_make_id": 448,
+      "name": "TOYOTA"
+    },
+    {
+      "vpic_make_id": 482,
+      "name": "VOLKSWAGEN"
+    },
+    {
+      "vpic_make_id": 485,
+      "name": "VOLVO"
+    }
+  ],
+  "models": [
+    {
+      "vpic_model_id": 17834,
+      "vpic_make_id": 441,
+      "name": "Model 3",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 1685,
+      "vpic_make_id": 441,
+      "name": "Model S",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 10199,
+      "vpic_make_id": 441,
+      "name": "Model X",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021
+      ]
+    },
+    {
+      "vpic_model_id": 27027,
+      "vpic_make_id": 441,
+      "name": "Model Y",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2020,
+        2021
+      ]
+    },
+    {
+      "vpic_model_id": 2071,
+      "vpic_make_id": 441,
+      "name": "Roadster",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012
+      ]
+    },
+    {
+      "vpic_model_id": 2375,
+      "vpic_make_id": 442,
+      "name": "F-TYPE",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 11440,
+      "vpic_make_id": 442,
+      "name": "XE",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021
+      ]
+    },
+    {
+      "vpic_model_id": 2285,
+      "vpic_make_id": 442,
+      "name": "XF",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 2242,
+      "vpic_make_id": 442,
+      "name": "XJ",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019
+      ]
+    },
+    {
+      "vpic_model_id": 2286,
+      "vpic_make_id": 442,
+      "name": "XK",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015
+      ]
+    },
+    {
+      "vpic_model_id": 13602,
+      "vpic_make_id": 448,
+      "name": "86",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2017,
+        2018,
+        2019,
+        2020
+      ]
+    },
+    {
+      "vpic_model_id": 2465,
+      "vpic_make_id": 448,
+      "name": "Avalon",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ]
+    },
+    {
+      "vpic_model_id": 17213,
+      "vpic_make_id": 448,
+      "name": "C-HR",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ]
+    },
+    {
+      "vpic_model_id": 2469,
+      "vpic_make_id": 448,
+      "name": "Camry",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 2208,
+      "vpic_make_id": 448,
+      "name": "Corolla",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 2466,
+      "vpic_make_id": 448,
+      "name": "Corolla Matrix",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013
+      ]
+    },
+    {
+      "vpic_model_id": 15800,
+      "vpic_make_id": 448,
+      "name": "Corolla iM",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2017,
+        2018
+      ]
+    },
+    {
+      "vpic_model_id": 31077,
+      "vpic_make_id": 448,
+      "name": "Crown",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 3155,
+      "vpic_make_id": 448,
+      "name": "FCHV-adv",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010
+      ]
+    },
+    {
+      "vpic_model_id": 31079,
+      "vpic_make_id": 448,
+      "name": "GR Corolla",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 29364,
+      "vpic_make_id": 448,
+      "name": "GR86",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 10198,
+      "vpic_make_id": 448,
+      "name": "Mirai",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 2209,
+      "vpic_make_id": 448,
+      "name": "Prius",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 13823,
+      "vpic_make_id": 448,
+      "name": "Prius C",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020
+      ]
+    },
+    {
+      "vpic_model_id": 21950,
+      "vpic_make_id": 448,
+      "name": "Prius Prime (PHEV)",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 13822,
+      "vpic_make_id": 448,
+      "name": "Prius V",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017
+      ]
+    },
+    {
+      "vpic_model_id": 2315,
+      "vpic_make_id": 448,
+      "name": "Scion FR-S",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2013,
+        2014,
+        2015,
+        2016
+      ]
+    },
+    {
+      "vpic_model_id": 13603,
+      "vpic_make_id": 448,
+      "name": "Scion iA",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2016
+      ]
+    },
+    {
+      "vpic_model_id": 11501,
+      "vpic_make_id": 448,
+      "name": "Scion iM",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2016
+      ]
+    },
+    {
+      "vpic_model_id": 10241,
+      "vpic_make_id": 448,
+      "name": "Scion iQ",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015
+      ]
+    },
+    {
+      "vpic_model_id": 2207,
+      "vpic_make_id": 448,
+      "name": "Scion tC",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016
+      ]
+    },
+    {
+      "vpic_model_id": 2933,
+      "vpic_make_id": 448,
+      "name": "Scion xD",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014
+      ]
+    },
+    {
+      "vpic_model_id": 3647,
+      "vpic_make_id": 448,
+      "name": "Supra",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 2464,
+      "vpic_make_id": 448,
+      "name": "Yaris",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020
+      ]
+    },
+    {
+      "vpic_model_id": 24949,
+      "vpic_make_id": 448,
+      "name": "Yaris iA",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2017,
+        2018,
+        2019
+      ]
+    },
+    {
+      "vpic_model_id": 24879,
+      "vpic_make_id": 449,
+      "name": "A-Class",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2019,
+        2020,
+        2021,
+        2022
+      ]
+    },
+    {
+      "vpic_model_id": 5881,
+      "vpic_make_id": 449,
+      "name": "AMG GT",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 2113,
+      "vpic_make_id": 449,
+      "name": "B-Class",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2011,
+        2012,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ]
+    },
+    {
+      "vpic_model_id": 2085,
+      "vpic_make_id": 449,
+      "name": "C-Class",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 2678,
+      "vpic_make_id": 449,
+      "name": "CL-Class",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014
+      ]
+    },
+    {
+      "vpic_model_id": 2083,
+      "vpic_make_id": 449,
+      "name": "CLA-Class",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 33769,
+      "vpic_make_id": 449,
+      "name": "CLE",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 2082,
+      "vpic_make_id": 449,
+      "name": "CLS-Class",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023
+      ]
+    },
+    {
+      "vpic_model_id": 2081,
+      "vpic_make_id": 449,
+      "name": "E-Class",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 30229,
+      "vpic_make_id": 449,
+      "name": "EQE-Class Sedan",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 29045,
+      "vpic_make_id": 449,
+      "name": "EQS-Class Sedan",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 2084,
+      "vpic_make_id": 449,
+      "name": "GLA-Class",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020
+      ]
+    },
+    {
+      "vpic_model_id": 2086,
+      "vpic_make_id": 449,
+      "name": "S-Class",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 2079,
+      "vpic_make_id": 449,
+      "name": "SL-Class",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 11452,
+      "vpic_make_id": 449,
+      "name": "SLC-Class",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2017,
+        2018,
+        2019,
+        2020
+      ]
+    },
+    {
+      "vpic_model_id": 2080,
+      "vpic_make_id": 449,
+      "name": "SLK-Class",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016
+      ]
+    },
+    {
+      "vpic_model_id": 2087,
+      "vpic_make_id": 449,
+      "name": "SLS-Class",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ]
+    },
+    {
+      "vpic_model_id": 1707,
+      "vpic_make_id": 452,
+      "name": "128i",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014
+      ]
+    },
+    {
+      "vpic_model_id": 1708,
+      "vpic_make_id": 452,
+      "name": "135i",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014
+      ]
+    },
+    {
+      "vpic_model_id": 1970,
+      "vpic_make_id": 452,
+      "name": "1M",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2011
+      ]
+    },
+    {
+      "vpic_model_id": 2170,
+      "vpic_make_id": 452,
+      "name": "228i",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 13825,
+      "vpic_make_id": 452,
+      "name": "230i",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 2172,
+      "vpic_make_id": 452,
+      "name": "320i",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018
+      ]
+    },
+    {
+      "vpic_model_id": 2173,
+      "vpic_make_id": 452,
+      "name": "328d",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2018
+      ]
+    },
+    {
+      "vpic_model_id": 1709,
+      "vpic_make_id": 452,
+      "name": "328i",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016
+      ]
+    },
+    {
+      "vpic_model_id": 9569,
+      "vpic_make_id": 452,
+      "name": "330e",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2016,
+        2017,
+        2018,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 2777,
+      "vpic_make_id": 452,
+      "name": "330i",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 9253,
+      "vpic_make_id": 452,
+      "name": "335",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2014
+      ]
+    },
+    {
+      "vpic_model_id": 1713,
+      "vpic_make_id": 452,
+      "name": "335d",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011
+      ]
+    },
+    {
+      "vpic_model_id": 1711,
+      "vpic_make_id": 452,
+      "name": "335i",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017
+      ]
+    },
+    {
+      "vpic_model_id": 1712,
+      "vpic_make_id": 452,
+      "name": "335is",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015
+      ]
+    },
+    {
+      "vpic_model_id": 9568,
+      "vpic_make_id": 452,
+      "name": "340i",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 2220,
+      "vpic_make_id": 452,
+      "name": "428i",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2014,
+        2015,
+        2016
+      ]
+    },
+    {
+      "vpic_model_id": 13827,
+      "vpic_make_id": 452,
+      "name": "430i",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 2230,
+      "vpic_make_id": 452,
+      "name": "435i",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2014,
+        2015,
+        2016
+      ]
+    },
+    {
+      "vpic_model_id": 13828,
+      "vpic_make_id": 452,
+      "name": "440i",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2017,
+        2018,
+        2019,
+        2020
+      ]
+    },
+    {
+      "vpic_model_id": 1715,
+      "vpic_make_id": 452,
+      "name": "528i",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016
+      ]
+    },
+    {
+      "vpic_model_id": 1730,
+      "vpic_make_id": 452,
+      "name": "528xi",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2012,
+        2013
+      ]
+    },
+    {
+      "vpic_model_id": 20813,
+      "vpic_make_id": 452,
+      "name": "530e",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023
+      ]
+    },
+    {
+      "vpic_model_id": 2585,
+      "vpic_make_id": 452,
+      "name": "530i",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 2231,
+      "vpic_make_id": 452,
+      "name": "535d",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2014,
+        2015,
+        2016
+      ]
+    },
+    {
+      "vpic_model_id": 1716,
+      "vpic_make_id": 452,
+      "name": "535i",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017
+      ]
+    },
+    {
+      "vpic_model_id": 20811,
+      "vpic_make_id": 452,
+      "name": "540d",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2018,
+        2019
+      ]
+    },
+    {
+      "vpic_model_id": 5195,
+      "vpic_make_id": 452,
+      "name": "540i",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 1718,
+      "vpic_make_id": 452,
+      "name": "550i",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017
+      ]
+    },
+    {
+      "vpic_model_id": 1731,
+      "vpic_make_id": 452,
+      "name": "640i",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019
+      ]
+    },
+    {
+      "vpic_model_id": 24944,
+      "vpic_make_id": 452,
+      "name": "640xi",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2018,
+        2019
+      ]
+    },
+    {
+      "vpic_model_id": 1732,
+      "vpic_make_id": 452,
+      "name": "650i",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019
+      ]
+    },
+    {
+      "vpic_model_id": 21787,
+      "vpic_make_id": 452,
+      "name": "650i, Alpina B6",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2015,
+        2016
+      ]
+    },
+    {
+      "vpic_model_id": 21793,
+      "vpic_make_id": 452,
+      "name": "650i, B6",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2017,
+        2018,
+        2019
+      ]
+    },
+    {
+      "vpic_model_id": 1733,
+      "vpic_make_id": 452,
+      "name": "650xi",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2012,
+        2013,
+        2014,
+        2015
+      ]
+    },
+    {
+      "vpic_model_id": 1721,
+      "vpic_make_id": 452,
+      "name": "740Li",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2022
+      ]
+    },
+    {
+      "vpic_model_id": 13835,
+      "vpic_make_id": 452,
+      "name": "740e",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2017,
+        2018,
+        2019
+      ]
+    },
+    {
+      "vpic_model_id": 1720,
+      "vpic_make_id": 452,
+      "name": "740i",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 29051,
+      "vpic_make_id": 452,
+      "name": "745Le",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2022
+      ]
+    },
+    {
+      "vpic_model_id": 26482,
+      "vpic_make_id": 452,
+      "name": "745e",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2020,
+        2021
+      ]
+    },
+    {
+      "vpic_model_id": 1723,
+      "vpic_make_id": 452,
+      "name": "750Li",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2022
+      ]
+    },
+    {
+      "vpic_model_id": 21788,
+      "vpic_make_id": 452,
+      "name": "750Li, Alpina B7",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2012,
+        2013,
+        2014,
+        2015
+      ]
+    },
+    {
+      "vpic_model_id": 1728,
+      "vpic_make_id": 452,
+      "name": "750Lxi",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2013,
+        2014,
+        2015
+      ]
+    },
+    {
+      "vpic_model_id": 21790,
+      "vpic_make_id": 452,
+      "name": "750Lxi, Alpina B7",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2012
+      ]
+    },
+    {
+      "vpic_model_id": 32327,
+      "vpic_make_id": 452,
+      "name": "750e",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 1722,
+      "vpic_make_id": 452,
+      "name": "750i",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ]
+    },
+    {
+      "vpic_model_id": 13868,
+      "vpic_make_id": 452,
+      "name": "750i, Alpina B7",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2012,
+        2013,
+        2014,
+        2015
+      ]
+    },
+    {
+      "vpic_model_id": 21792,
+      "vpic_make_id": 452,
+      "name": "750i, B7",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2017,
+        2018,
+        2019
+      ]
+    },
+    {
+      "vpic_model_id": 1727,
+      "vpic_make_id": 452,
+      "name": "750xi",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2013,
+        2014,
+        2015
+      ]
+    },
+    {
+      "vpic_model_id": 21791,
+      "vpic_make_id": 452,
+      "name": "750xi, Alpina B7",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2012
+      ]
+    },
+    {
+      "vpic_model_id": 1724,
+      "vpic_make_id": 452,
+      "name": "760Li",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015
+      ]
+    },
+    {
+      "vpic_model_id": 2804,
+      "vpic_make_id": 452,
+      "name": "760i",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 26483,
+      "vpic_make_id": 452,
+      "name": "840i",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 13427,
+      "vpic_make_id": 452,
+      "name": "850i",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2019
+      ]
+    },
+    {
+      "vpic_model_id": 1971,
+      "vpic_make_id": 452,
+      "name": "ActiveE",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2012
+      ]
+    },
+    {
+      "vpic_model_id": 2219,
+      "vpic_make_id": 452,
+      "name": "ActiveHybrid 3",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2014,
+        2015
+      ]
+    },
+    {
+      "vpic_model_id": 2240,
+      "vpic_make_id": 452,
+      "name": "ActiveHybrid 5",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2018
+      ]
+    },
+    {
+      "vpic_model_id": 31534,
+      "vpic_make_id": 452,
+      "name": "ActiveHybrid 7",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2014,
+        2015
+      ]
+    },
+    {
+      "vpic_model_id": 31653,
+      "vpic_make_id": 452,
+      "name": "Alpina B8",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 13834,
+      "vpic_make_id": 452,
+      "name": "B7",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2019,
+        2020,
+        2021,
+        2022
+      ]
+    },
+    {
+      "vpic_model_id": 9567,
+      "vpic_make_id": 452,
+      "name": "M2",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 2171,
+      "vpic_make_id": 452,
+      "name": "M235i",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2014,
+        2015,
+        2016,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 13826,
+      "vpic_make_id": 452,
+      "name": "M240i",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 1710,
+      "vpic_make_id": 452,
+      "name": "M3",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2015,
+        2016,
+        2017,
+        2018,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 26481,
+      "vpic_make_id": 452,
+      "name": "M340i",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 9570,
+      "vpic_make_id": 452,
+      "name": "M4",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 28100,
+      "vpic_make_id": 452,
+      "name": "M440i",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 2024,
+      "vpic_make_id": 452,
+      "name": "M5",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023
+      ]
+    },
+    {
+      "vpic_model_id": 20814,
+      "vpic_make_id": 452,
+      "name": "M550i",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023
+      ]
+    },
+    {
+      "vpic_model_id": 1729,
+      "vpic_make_id": 452,
+      "name": "M6",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019
+      ]
+    },
+    {
+      "vpic_model_id": 29050,
+      "vpic_make_id": 452,
+      "name": "M760Li",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2022
+      ]
+    },
+    {
+      "vpic_model_id": 20815,
+      "vpic_make_id": 452,
+      "name": "M760i",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021
+      ]
+    },
+    {
+      "vpic_model_id": 26485,
+      "vpic_make_id": 452,
+      "name": "M8",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 26484,
+      "vpic_make_id": 452,
+      "name": "M850i",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 2300,
+      "vpic_make_id": 452,
+      "name": "X1",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2012,
+        2013,
+        2014,
+        2015
+      ]
+    },
+    {
+      "vpic_model_id": 1719,
+      "vpic_make_id": 452,
+      "name": "X3",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010
+      ]
+    },
+    {
+      "vpic_model_id": 1725,
+      "vpic_make_id": 452,
+      "name": "Z4",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 2178,
+      "vpic_make_id": 452,
+      "name": "i3",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021
+      ]
+    },
+    {
+      "vpic_model_id": 29579,
+      "vpic_make_id": 452,
+      "name": "i4",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 32328,
+      "vpic_make_id": 452,
+      "name": "i5",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 30512,
+      "vpic_make_id": 452,
+      "name": "i7",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 2179,
+      "vpic_make_id": 452,
+      "name": "i8",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2019,
+        2020
+      ]
+    },
+    {
+      "vpic_model_id": 1765,
+      "vpic_make_id": 456,
+      "name": "Clubman",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 1761,
+      "vpic_make_id": 456,
+      "name": "Cooper",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010
+      ]
+    },
+    {
+      "vpic_model_id": 1767,
+      "vpic_make_id": 456,
+      "name": "Cooper Convertible",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 1886,
+      "vpic_make_id": 456,
+      "name": "Cooper Coupe",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2012,
+        2013,
+        2014,
+        2015
+      ]
+    },
+    {
+      "vpic_model_id": 1925,
+      "vpic_make_id": 456,
+      "name": "Cooper Roadster",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2012,
+        2013,
+        2014,
+        2015
+      ]
+    },
+    {
+      "vpic_model_id": 1880,
+      "vpic_make_id": 456,
+      "name": "Countryman",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016
+      ]
+    },
+    {
+      "vpic_model_id": 1862,
+      "vpic_make_id": 456,
+      "name": "Hardtop",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 1928,
+      "vpic_make_id": 456,
+      "name": "Paceman",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019
+      ]
+    },
+    {
+      "vpic_model_id": 14930,
+      "vpic_make_id": 460,
+      "name": "'34",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 3462,
+      "vpic_make_id": 460,
+      "name": "C-Max",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018
+      ]
+    },
+    {
+      "vpic_model_id": 1778,
+      "vpic_make_id": 460,
+      "name": "Crown Victoria",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011
+      ]
+    },
+    {
+      "vpic_model_id": 3267,
+      "vpic_make_id": 460,
+      "name": "Fiesta",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019
+      ]
+    },
+    {
+      "vpic_model_id": 1779,
+      "vpic_make_id": 460,
+      "name": "Focus",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018
+      ]
+    },
+    {
+      "vpic_model_id": 1780,
+      "vpic_make_id": 460,
+      "name": "Fusion",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020
+      ]
+    },
+    {
+      "vpic_model_id": 2346,
+      "vpic_make_id": 460,
+      "name": "GT",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ]
+    },
+    {
+      "vpic_model_id": 31551,
+      "vpic_make_id": 460,
+      "name": "GT MKII",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 1781,
+      "vpic_make_id": 460,
+      "name": "Mustang",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 1782,
+      "vpic_make_id": 460,
+      "name": "Taurus",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019
+      ]
+    },
+    {
+      "vpic_model_id": 1828,
+      "vpic_make_id": 467,
+      "name": "Aveo",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020
+      ]
+    },
+    {
+      "vpic_model_id": 30005,
+      "vpic_make_id": 467,
+      "name": "Bolt EUV",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2022,
+        2023
+      ]
+    },
+    {
+      "vpic_model_id": 13672,
+      "vpic_make_id": 467,
+      "name": "Bolt EV",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023
+      ]
+    },
+    {
+      "vpic_model_id": 1829,
+      "vpic_make_id": 467,
+      "name": "Camaro",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 1830,
+      "vpic_make_id": 467,
+      "name": "Caprice Police Vehicle",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017
+      ]
+    },
+    {
+      "vpic_model_id": 4234,
+      "vpic_make_id": 467,
+      "name": "Cobalt",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010
+      ]
+    },
+    {
+      "vpic_model_id": 1831,
+      "vpic_make_id": 467,
+      "name": "Corvette",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 1832,
+      "vpic_make_id": 467,
+      "name": "Cruze",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019
+      ]
+    },
+    {
+      "vpic_model_id": 34069,
+      "vpic_make_id": 467,
+      "name": "Cruze Limited",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2016
+      ]
+    },
+    {
+      "vpic_model_id": 1833,
+      "vpic_make_id": 467,
+      "name": "Impala",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020
+      ]
+    },
+    {
+      "vpic_model_id": 13634,
+      "vpic_make_id": 467,
+      "name": "Impala Limited",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2014,
+        2015,
+        2016
+      ]
+    },
+    {
+      "vpic_model_id": 1834,
+      "vpic_make_id": 467,
+      "name": "Malibu",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 34272,
+      "vpic_make_id": 467,
+      "name": "Malibu Limited",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2016
+      ]
+    },
+    {
+      "vpic_model_id": 4047,
+      "vpic_make_id": 467,
+      "name": "Matiz",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2012
+      ]
+    },
+    {
+      "vpic_model_id": 27445,
+      "vpic_make_id": 467,
+      "name": "Onix",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 1837,
+      "vpic_make_id": 467,
+      "name": "SS",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2014,
+        2015,
+        2016,
+        2017
+      ]
+    },
+    {
+      "vpic_model_id": 1835,
+      "vpic_make_id": 467,
+      "name": "Sonic",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020
+      ]
+    },
+    {
+      "vpic_model_id": 1836,
+      "vpic_make_id": 467,
+      "name": "Spark",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ]
+    },
+    {
+      "vpic_model_id": 1838,
+      "vpic_make_id": 467,
+      "name": "Volt",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019
+      ]
+    },
+    {
+      "vpic_model_id": 10202,
+      "vpic_make_id": 473,
+      "name": "CX-3",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ]
+    },
+    {
+      "vpic_model_id": 29125,
+      "vpic_make_id": 473,
+      "name": "MX-30",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2022,
+        2023
+      ]
+    },
+    {
+      "vpic_model_id": 2072,
+      "vpic_make_id": 473,
+      "name": "MX-5",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 2153,
+      "vpic_make_id": 473,
+      "name": "Mazda2",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021
+      ]
+    },
+    {
+      "vpic_model_id": 2074,
+      "vpic_make_id": 473,
+      "name": "Mazda3",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 2075,
+      "vpic_make_id": 473,
+      "name": "Mazda5",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015
+      ]
+    },
+    {
+      "vpic_model_id": 2078,
+      "vpic_make_id": 473,
+      "name": "Mazda6",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021
+      ]
+    },
+    {
+      "vpic_model_id": 2073,
+      "vpic_make_id": 473,
+      "name": "RX-8",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012
+      ]
+    },
+    {
+      "vpic_model_id": 1861,
+      "vpic_make_id": 474,
+      "name": "Accord",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 2128,
+      "vpic_make_id": 474,
+      "name": "CR-Z",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016
+      ]
+    },
+    {
+      "vpic_model_id": 1863,
+      "vpic_make_id": 474,
+      "name": "Civic",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 29417,
+      "vpic_make_id": 474,
+      "name": "Civic Si",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 31535,
+      "vpic_make_id": 474,
+      "name": "Civic Type R",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 14249,
+      "vpic_make_id": 474,
+      "name": "Clarity",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021
+      ]
+    },
+    {
+      "vpic_model_id": 1875,
+      "vpic_make_id": 474,
+      "name": "FCX Clarity",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014
+      ]
+    },
+    {
+      "vpic_model_id": 2127,
+      "vpic_make_id": 474,
+      "name": "Fit",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020
+      ]
+    },
+    {
+      "vpic_model_id": 1870,
+      "vpic_make_id": 474,
+      "name": "Insight",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2019,
+        2020,
+        2021,
+        2022
+      ]
+    },
+    {
+      "vpic_model_id": 2150,
+      "vpic_make_id": 475,
+      "name": "ILX",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ]
+    },
+    {
+      "vpic_model_id": 5063,
+      "vpic_make_id": 475,
+      "name": "Integra",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 5168,
+      "vpic_make_id": 475,
+      "name": "NSX",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ]
+    },
+    {
+      "vpic_model_id": 1872,
+      "vpic_make_id": 475,
+      "name": "RL",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012
+      ]
+    },
+    {
+      "vpic_model_id": 2149,
+      "vpic_make_id": 475,
+      "name": "RLX",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020
+      ]
+    },
+    {
+      "vpic_model_id": 1873,
+      "vpic_make_id": 475,
+      "name": "TL",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014
+      ]
+    },
+    {
+      "vpic_model_id": 5354,
+      "vpic_make_id": 475,
+      "name": "TLX",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 1874,
+      "vpic_make_id": 475,
+      "name": "TSX",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014
+      ]
+    },
+    {
+      "vpic_model_id": 1892,
+      "vpic_make_id": 476,
+      "name": "Avenger",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014
+      ]
+    },
+    {
+      "vpic_model_id": 1896,
+      "vpic_make_id": 476,
+      "name": "Caliber",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012
+      ]
+    },
+    {
+      "vpic_model_id": 1893,
+      "vpic_make_id": 476,
+      "name": "Challenger",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023
+      ]
+    },
+    {
+      "vpic_model_id": 1895,
+      "vpic_make_id": 476,
+      "name": "Charger",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 2054,
+      "vpic_make_id": 476,
+      "name": "Dart",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2013,
+        2014,
+        2015,
+        2016
+      ]
+    },
+    {
+      "vpic_model_id": 1897,
+      "vpic_make_id": 476,
+      "name": "Viper",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017
+      ]
+    },
+    {
+      "vpic_model_id": 2053,
+      "vpic_make_id": 477,
+      "name": "200",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017
+      ]
+    },
+    {
+      "vpic_model_id": 1878,
+      "vpic_make_id": 477,
+      "name": "300",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023
+      ]
+    },
+    {
+      "vpic_model_id": 25754,
+      "vpic_make_id": 477,
+      "name": "300C",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011
+      ]
+    },
+    {
+      "vpic_model_id": 1877,
+      "vpic_make_id": 477,
+      "name": "Sebring",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010
+      ]
+    },
+    {
+      "vpic_model_id": 1906,
+      "vpic_make_id": 478,
+      "name": "370Z",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ]
+    },
+    {
+      "vpic_model_id": 1904,
+      "vpic_make_id": 478,
+      "name": "Altima",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 30884,
+      "vpic_make_id": 478,
+      "name": "Ariya Hatchback",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 1890,
+      "vpic_make_id": 478,
+      "name": "GT-R",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 22791,
+      "vpic_make_id": 478,
+      "name": "Kicks",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 1905,
+      "vpic_make_id": 478,
+      "name": "Leaf",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 2302,
+      "vpic_make_id": 478,
+      "name": "Maxima",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023
+      ]
+    },
+    {
+      "vpic_model_id": 30039,
+      "vpic_make_id": 478,
+      "name": "Nissan Z",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 17214,
+      "vpic_make_id": 478,
+      "name": "Rogue Sport",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ]
+    },
+    {
+      "vpic_model_id": 1907,
+      "vpic_make_id": 478,
+      "name": "Sentra",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 1894,
+      "vpic_make_id": 478,
+      "name": "Versa",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 1898,
+      "vpic_make_id": 478,
+      "name": "Versa Note",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020
+      ]
+    },
+    {
+      "vpic_model_id": 2338,
+      "vpic_make_id": 480,
+      "name": "EX35",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013
+      ]
+    },
+    {
+      "vpic_model_id": 2358,
+      "vpic_make_id": 480,
+      "name": "G25",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2011,
+        2012
+      ]
+    },
+    {
+      "vpic_model_id": 2337,
+      "vpic_make_id": 480,
+      "name": "G37",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013
+      ]
+    },
+    {
+      "vpic_model_id": 2306,
+      "vpic_make_id": 480,
+      "name": "M35",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010
+      ]
+    },
+    {
+      "vpic_model_id": 2368,
+      "vpic_make_id": 480,
+      "name": "M35h",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2012,
+        2013
+      ]
+    },
+    {
+      "vpic_model_id": 2357,
+      "vpic_make_id": 480,
+      "name": "M37",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2011,
+        2012,
+        2013
+      ]
+    },
+    {
+      "vpic_model_id": 2307,
+      "vpic_make_id": 480,
+      "name": "M45",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010
+      ]
+    },
+    {
+      "vpic_model_id": 2356,
+      "vpic_make_id": 480,
+      "name": "M56",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2011,
+        2012,
+        2013
+      ]
+    },
+    {
+      "vpic_model_id": 1900,
+      "vpic_make_id": 480,
+      "name": "Q40",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2015,
+        2016
+      ]
+    },
+    {
+      "vpic_model_id": 1901,
+      "vpic_make_id": 480,
+      "name": "Q50",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 1902,
+      "vpic_make_id": 480,
+      "name": "Q60",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2014,
+        2015,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ]
+    },
+    {
+      "vpic_model_id": 1903,
+      "vpic_make_id": 480,
+      "name": "Q70",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ]
+    },
+    {
+      "vpic_model_id": 2038,
+      "vpic_make_id": 480,
+      "name": "Q70L",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ]
+    },
+    {
+      "vpic_model_id": 13820,
+      "vpic_make_id": 480,
+      "name": "QX30",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2017,
+        2018,
+        2019
+      ]
+    },
+    {
+      "vpic_model_id": 1899,
+      "vpic_make_id": 480,
+      "name": "QX50",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2014,
+        2015,
+        2016,
+        2017
+      ]
+    },
+    {
+      "vpic_model_id": 2166,
+      "vpic_make_id": 481,
+      "name": "Eclipse",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012
+      ]
+    },
+    {
+      "vpic_model_id": 2165,
+      "vpic_make_id": 481,
+      "name": "Galant",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012
+      ]
+    },
+    {
+      "vpic_model_id": 2164,
+      "vpic_make_id": 481,
+      "name": "Lancer",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017
+      ]
+    },
+    {
+      "vpic_model_id": 5809,
+      "vpic_make_id": 481,
+      "name": "Lancer Evolution",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015
+      ]
+    },
+    {
+      "vpic_model_id": 5808,
+      "vpic_make_id": 481,
+      "name": "Lancer SportBack",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017
+      ]
+    },
+    {
+      "vpic_model_id": 2342,
+      "vpic_make_id": 481,
+      "name": "Mirage",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 13842,
+      "vpic_make_id": 481,
+      "name": "Mirage G4",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 2339,
+      "vpic_make_id": 481,
+      "name": "i-MiEV",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018
+      ]
+    },
+    {
+      "vpic_model_id": 25871,
+      "vpic_make_id": 482,
+      "name": "Arteon",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023
+      ]
+    },
+    {
+      "vpic_model_id": 8119,
+      "vpic_make_id": 482,
+      "name": "Beetle",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019
+      ]
+    },
+    {
+      "vpic_model_id": 8121,
+      "vpic_make_id": 482,
+      "name": "CC",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2012,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018
+      ]
+    },
+    {
+      "vpic_model_id": 4167,
+      "vpic_make_id": 482,
+      "name": "Eos",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016
+      ]
+    },
+    {
+      "vpic_model_id": 3140,
+      "vpic_make_id": 482,
+      "name": "GTI",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015
+      ]
+    },
+    {
+      "vpic_model_id": 3133,
+      "vpic_make_id": 482,
+      "name": "Golf",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021
+      ]
+    },
+    {
+      "vpic_model_id": 24230,
+      "vpic_make_id": 482,
+      "name": "Golf Alltrack",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2017,
+        2018,
+        2019,
+        2020
+      ]
+    },
+    {
+      "vpic_model_id": 13670,
+      "vpic_make_id": 482,
+      "name": "Golf GTI",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 13844,
+      "vpic_make_id": 482,
+      "name": "Golf R",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2013,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 5059,
+      "vpic_make_id": 482,
+      "name": "Golf SportWagen",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020
+      ]
+    },
+    {
+      "vpic_model_id": 3137,
+      "vpic_make_id": 482,
+      "name": "Jetta",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 29681,
+      "vpic_make_id": 482,
+      "name": "Jetta GLI",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 8364,
+      "vpic_make_id": 482,
+      "name": "Jetta SportWagen",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014
+      ]
+    },
+    {
+      "vpic_model_id": 3134,
+      "vpic_make_id": 482,
+      "name": "Passat",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ]
+    },
+    {
+      "vpic_model_id": 8118,
+      "vpic_make_id": 482,
+      "name": "e-Golf",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020
+      ]
+    },
+    {
+      "vpic_model_id": 3144,
+      "vpic_make_id": 485,
+      "name": "C30",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013
+      ]
+    },
+    {
+      "vpic_model_id": 3129,
+      "vpic_make_id": 485,
+      "name": "C70",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013
+      ]
+    },
+    {
+      "vpic_model_id": 28490,
+      "vpic_make_id": 485,
+      "name": "C70 / C30",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2012
+      ]
+    },
+    {
+      "vpic_model_id": 3127,
+      "vpic_make_id": 485,
+      "name": "S40",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011
+      ]
+    },
+    {
+      "vpic_model_id": 1959,
+      "vpic_make_id": 485,
+      "name": "S60",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 10208,
+      "vpic_make_id": 485,
+      "name": "S60CC",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2016,
+        2017,
+        2018
+      ]
+    },
+    {
+      "vpic_model_id": 1960,
+      "vpic_make_id": 485,
+      "name": "S80",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016
+      ]
+    },
+    {
+      "vpic_model_id": 13798,
+      "vpic_make_id": 485,
+      "name": "S90",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 3128,
+      "vpic_make_id": 485,
+      "name": "V50",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011
+      ]
+    },
+    {
+      "vpic_model_id": 1961,
+      "vpic_make_id": 485,
+      "name": "V60",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 10206,
+      "vpic_make_id": 485,
+      "name": "V60CC",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2015,
+        2016,
+        2017,
+        2018
+      ]
+    },
+    {
+      "vpic_model_id": 3130,
+      "vpic_make_id": 485,
+      "name": "V70",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010
+      ]
+    },
+    {
+      "vpic_model_id": 13799,
+      "vpic_make_id": 485,
+      "name": "V90",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021
+      ]
+    },
+    {
+      "vpic_model_id": 13800,
+      "vpic_make_id": 485,
+      "name": "V90CC",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2017,
+        2018
+      ]
+    },
+    {
+      "vpic_model_id": 1962,
+      "vpic_make_id": 485,
+      "name": "XC60",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2022
+      ]
+    },
+    {
+      "vpic_model_id": 1963,
+      "vpic_make_id": 485,
+      "name": "XC70",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016
+      ]
+    },
+    {
+      "vpic_model_id": 3132,
+      "vpic_make_id": 485,
+      "name": "XC90",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2016,
+        2017,
+        2018
+      ]
+    },
+    {
+      "vpic_model_id": 2773,
+      "vpic_make_id": 498,
+      "name": "Accent",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ]
+    },
+    {
+      "vpic_model_id": 2771,
+      "vpic_make_id": 498,
+      "name": "Azera",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018
+      ]
+    },
+    {
+      "vpic_model_id": 2735,
+      "vpic_make_id": 498,
+      "name": "Elantra",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 11447,
+      "vpic_make_id": 498,
+      "name": "Elantra GT",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2017,
+        2018,
+        2019,
+        2020
+      ]
+    },
+    {
+      "vpic_model_id": 29258,
+      "vpic_make_id": 498,
+      "name": "Elantra N",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 5871,
+      "vpic_make_id": 498,
+      "name": "Elantra Touring",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010
+      ]
+    },
+    {
+      "vpic_model_id": 2056,
+      "vpic_make_id": 498,
+      "name": "Equus",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016
+      ]
+    },
+    {
+      "vpic_model_id": 2774,
+      "vpic_make_id": 498,
+      "name": "Genesis",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016
+      ]
+    },
+    {
+      "vpic_model_id": 2458,
+      "vpic_make_id": 498,
+      "name": "Genesis Coupe",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016
+      ]
+    },
+    {
+      "vpic_model_id": 21961,
+      "vpic_make_id": 498,
+      "name": "Ioniq",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ]
+    },
+    {
+      "vpic_model_id": 31360,
+      "vpic_make_id": 498,
+      "name": "Ioniq 6",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 2459,
+      "vpic_make_id": 498,
+      "name": "Sonata",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 2298,
+      "vpic_make_id": 498,
+      "name": "Veloster",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021
+      ]
+    },
+    {
+      "vpic_model_id": 28077,
+      "vpic_make_id": 498,
+      "name": "Veloster N",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2019,
+        2020,
+        2021,
+        2022
+      ]
+    },
+    {
+      "vpic_model_id": 26441,
+      "vpic_make_id": 498,
+      "name": "Venue",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 3071,
+      "vpic_make_id": 499,
+      "name": "Cadenza",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020
+      ]
+    },
+    {
+      "vpic_model_id": 2462,
+      "vpic_make_id": 499,
+      "name": "Forte",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 12815,
+      "vpic_make_id": 499,
+      "name": "Forte Koup",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2016,
+        2017
+      ]
+    },
+    {
+      "vpic_model_id": 27527,
+      "vpic_make_id": 499,
+      "name": "K5",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 3184,
+      "vpic_make_id": 499,
+      "name": "K900",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020
+      ]
+    },
+    {
+      "vpic_model_id": 2739,
+      "vpic_make_id": 499,
+      "name": "Optima",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020
+      ]
+    },
+    {
+      "vpic_model_id": 2299,
+      "vpic_make_id": 499,
+      "name": "Rio",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023
+      ]
+    },
+    {
+      "vpic_model_id": 2738,
+      "vpic_make_id": 499,
+      "name": "Rondo",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016
+      ]
+    },
+    {
+      "vpic_model_id": 21370,
+      "vpic_make_id": 499,
+      "name": "Stinger",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023
+      ]
+    },
+    {
+      "vpic_model_id": 3157,
+      "vpic_make_id": 509,
+      "name": "Kizashi",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014
+      ]
+    },
+    {
+      "vpic_model_id": 3152,
+      "vpic_make_id": 509,
+      "name": "SX4",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014
+      ]
+    },
+    {
+      "vpic_model_id": 3154,
+      "vpic_make_id": 515,
+      "name": "CT",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017
+      ]
+    },
+    {
+      "vpic_model_id": 2475,
+      "vpic_make_id": 515,
+      "name": "ES",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 2180,
+      "vpic_make_id": 515,
+      "name": "GS",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020
+      ]
+    },
+    {
+      "vpic_model_id": 3185,
+      "vpic_make_id": 515,
+      "name": "HS",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012
+      ]
+    },
+    {
+      "vpic_model_id": 2184,
+      "vpic_make_id": 515,
+      "name": "IS",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 24941,
+      "vpic_make_id": 515,
+      "name": "LC",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 3652,
+      "vpic_make_id": 515,
+      "name": "LFA",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2012,
+        2013
+      ]
+    },
+    {
+      "vpic_model_id": 2182,
+      "vpic_make_id": 515,
+      "name": "LS",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 3406,
+      "vpic_make_id": 515,
+      "name": "RC",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 2183,
+      "vpic_make_id": 515,
+      "name": "SC",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010
+      ]
+    },
+    {
+      "vpic_model_id": 24984,
+      "vpic_make_id": 515,
+      "name": "UX",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 2238,
+      "vpic_make_id": 523,
+      "name": "BRZ",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 2235,
+      "vpic_make_id": 523,
+      "name": "Impreza",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 2232,
+      "vpic_make_id": 523,
+      "name": "Legacy",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 2233,
+      "vpic_make_id": 523,
+      "name": "Outback",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2015
+      ]
+    },
+    {
+      "vpic_model_id": 2237,
+      "vpic_make_id": 523,
+      "name": "WRX",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 3676,
+      "vpic_make_id": 582,
+      "name": "A3",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 3146,
+      "vpic_make_id": 582,
+      "name": "A4",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 3787,
+      "vpic_make_id": 582,
+      "name": "A5",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 3148,
+      "vpic_make_id": 582,
+      "name": "A6",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 27028,
+      "vpic_make_id": 582,
+      "name": "A6 allroad",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 4015,
+      "vpic_make_id": 582,
+      "name": "A7",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 34061,
+      "vpic_make_id": 582,
+      "name": "A7 e",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2021,
+        2022
+      ]
+    },
+    {
+      "vpic_model_id": 3151,
+      "vpic_make_id": 582,
+      "name": "A8",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020
+      ]
+    },
+    {
+      "vpic_model_id": 29708,
+      "vpic_make_id": 582,
+      "name": "A8 L",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 34062,
+      "vpic_make_id": 582,
+      "name": "A8 L e",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2021
+      ]
+    },
+    {
+      "vpic_model_id": 27122,
+      "vpic_make_id": 582,
+      "name": "A8 e",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2020
+      ]
+    },
+    {
+      "vpic_model_id": 3789,
+      "vpic_make_id": 582,
+      "name": "R8",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2020,
+        2021,
+        2022,
+        2023
+      ]
+    },
+    {
+      "vpic_model_id": 16783,
+      "vpic_make_id": 582,
+      "name": "RS 3",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 4014,
+      "vpic_make_id": 582,
+      "name": "RS 5",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2013,
+        2014,
+        2015,
+        2018,
+        2019,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 35165,
+      "vpic_make_id": 582,
+      "name": "RS 6 Avant",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 8685,
+      "vpic_make_id": 582,
+      "name": "RS 7",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 28998,
+      "vpic_make_id": 582,
+      "name": "RS e-tron GT",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 8173,
+      "vpic_make_id": 582,
+      "name": "S3",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 3147,
+      "vpic_make_id": 582,
+      "name": "S4",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 3788,
+      "vpic_make_id": 582,
+      "name": "S5",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 3677,
+      "vpic_make_id": 582,
+      "name": "S6",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 8258,
+      "vpic_make_id": 582,
+      "name": "S7",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 3678,
+      "vpic_make_id": 582,
+      "name": "S8",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 3145,
+      "vpic_make_id": 582,
+      "name": "TT",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023
+      ]
+    },
+    {
+      "vpic_model_id": 4016,
+      "vpic_make_id": 582,
+      "name": "TT RS",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2013,
+        2014,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ]
+    },
+    {
+      "vpic_model_id": 3861,
+      "vpic_make_id": 582,
+      "name": "TTS",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023
+      ]
+    },
+    {
+      "vpic_model_id": 29994,
+      "vpic_make_id": 582,
+      "name": "e-tron GT",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 31222,
+      "vpic_make_id": 584,
+      "name": "718 Boxster",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 31224,
+      "vpic_make_id": 584,
+      "name": "718 Cayman",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 31223,
+      "vpic_make_id": 584,
+      "name": "718 Spyder",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2020,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 7832,
+      "vpic_make_id": 584,
+      "name": "911",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 8022,
+      "vpic_make_id": 584,
+      "name": "918",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2015
+      ]
+    },
+    {
+      "vpic_model_id": 7847,
+      "vpic_make_id": 584,
+      "name": "Boxster",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016
+      ]
+    },
+    {
+      "vpic_model_id": 7900,
+      "vpic_make_id": 584,
+      "name": "Cayman",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016
+      ]
+    },
+    {
+      "vpic_model_id": 7994,
+      "vpic_make_id": 584,
+      "name": "Panamera",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 28090,
+      "vpic_make_id": 584,
+      "name": "Taycan",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 23521,
+      "vpic_make_id": 5083,
+      "name": "G70",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 12579,
+      "vpic_make_id": 5083,
+      "name": "G80",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "vpic_model_id": 12580,
+      "vpic_make_id": 5083,
+      "name": "G90",
+      "vehicle_type": "Passenger Car",
+      "years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    }
+  ]
+}

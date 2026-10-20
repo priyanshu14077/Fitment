@@ -1,0 +1,35 @@
+name: fitment
+
+services:
+  db:
+    image: postgres:17-alpine
+    container_name: fitment-db
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-fitment}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-fitment}
+      POSTGRES_DB: ${POSTGRES_DB:-fitment}
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}"]
+      interval: 2s
+      timeout: 3s
+      retries: 15
+
+  redis:
+    image: redis:7.4-alpine
+    container_name: fitment-redis
+    command: ["redis-server", "--save", "", "--appendonly", "no"]
+    ports:
+      - "6379:6379"
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 2s
+      timeout: 3s
+      retries: 15
+
+volumes:
+  pgdata:
+    name: fitment-pgdata

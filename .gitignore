@@ -1,0 +1,16 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+node_modules/
+dist/
+.DS_Store
+
+# Claude Code: personal settings and session state stay local
+.claude/settings.local.json
+.claude/state/
+
+# Serena MCP local project index
+.serena/
