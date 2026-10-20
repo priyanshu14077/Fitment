@@ -13,6 +13,8 @@ depends_on = None
 
 
 def upgrade() -> None:
+    op.execute("CREATE EXTENSION IF NOT EXISTS pg_trgm")
+
     op.execute("""
         CREATE TABLE make (
             id             integer GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
@@ -62,7 +64,70 @@ def upgrade() -> None:
     """)
     op.execute("CREATE INDEX vehicle_engine_id_idx ON vehicle (engine_id)")
 
+    op.execute("""
+        CREATE TABLE part_category (
+            id   integer GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+            slug text NOT NULL UNIQUE,
+            name text NOT NULL
+        )
+    """)
+
+    op.execute("""
+        CREATE TABLE part (
+            id          bigint  GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+            sku         text    NOT NULL UNIQUE,
+            brand       text    NOT NULL,
+            name        text    NOT NULL,
+            category_id integer NOT NULL REFERENCES part_category (id),
+            price_cents integer NOT NULL CHECK (price_cents >= 0),
+            attrs       jsonb   NOT NULL DEFAULT '{}'
+        )
+    """)
+    op.execute("CREATE INDEX part_category_id_idx ON part (category_id)")
+    op.execute("CREATE INDEX part_attrs_idx ON part USING gin (attrs jsonb_path_ops)")
+    op.execute("CREATE INDEX part_name_trgm_idx ON part USING gin (name gin_trgm_ops)")
+
+    # A NULL trim or engine_id means the rule applies to every trim or engine.
+    op.execute("""
+        CREATE TABLE fitment (
+            id        bigint   GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+            part_id   bigint   NOT NULL REFERENCES part (id) ON DELETE CASCADE,
+            make_id   integer  NOT NULL,
+            model_id  integer  NOT NULL,
+            year_from smallint NOT NULL,
+            year_to   smallint NOT NULL,
+            trim      text,
+            engine_id integer  REFERENCES engine (id),
+            position  text,
+            notes     text,
+            FOREIGN KEY (model_id, make_id) REFERENCES model (id, make_id),
+            CHECK (year_from <= year_to),
+            UNIQUE NULLS NOT DISTINCT
+                (part_id, model_id, year_from, year_to, trim, engine_id, position)
+        )
+    """)
+    # The hot path: "which parts fit model M in year Y?" INCLUDE lets the
+    # wildcard filters run from the index without visiting the table.
+    op.execute("""
+        CREATE INDEX fitment_lookup ON fitment (model_id, year_from, year_to)
+            INCLUDE (part_id, trim, engine_id, position)
+    """)
+    op.execute("CREATE INDEX fitment_part_id_idx ON fitment (part_id)")
+    op.execute("CREATE INDEX fitment_make_id_idx ON fitment (make_id)")
+    op.execute(
+        "CREATE INDEX fitment_engine_id_idx ON fitment (engine_id) WHERE engine_id IS NOT NULL"
+    )
+
 
 def downgrade() -> None:
-    for table in ("vehicle", "engine", "model", "make"):
+    for table in (
+        "fitment",
+        "part",
+        "part_category",
+        "vehicle",
+        "engine",
+        "model",
+        "make",
+    ):
         op.execute(f"DROP TABLE {table}")
+    op.execute("DROP EXTENSION IF EXISTS pg_trgm")
