@@ -11,3 +11,6 @@ dist/
 # Claude Code: personal settings and session state stay local
 .claude/settings.local.json
 .claude/state/
+
+# Serena MCP local project index
+.serena/
